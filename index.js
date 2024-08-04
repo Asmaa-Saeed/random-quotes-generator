@@ -5,11 +5,11 @@ let generateBtn = document.querySelector(".generate");
 let autoBtn = document.querySelector(".auto");
 let stopBtn = document.querySelector(".stop");
 let autoStatusEl = document.querySelector(".auto-status");
-
-// make the function that generates the code // here we use the set interval function to execute the code at regular intervals
 let intervalId;
+// make the function that generates the code // here we use the set interval function to execute the code at regular intervals
+
         generateBtn.addEventListener("click", generateQuote);
-        generateBtn.addEventListener("click", startAutoPlay);
+        autoBtn.addEventListener("click", startAutoPlay);
         stopBtn.addEventListener("click", stopAutoPlay);
     async function getQuotes() {
         const response = await fetch("quotes.json");
