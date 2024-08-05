@@ -1,36 +1,59 @@
-// bring all the selectors which need logic
+// select necessary elements
+let quotes = document.querySelector(".quotes");
 let quoteIdEl = document.querySelector(".quote-id");
 let quoteDisplayEl = document.querySelector(".quote-display");
 let generateBtn = document.querySelector(".generate");
 let autoBtn = document.querySelector(".auto");
 let stopBtn = document.querySelector(".stop");
 let autoStatusEl = document.querySelector(".auto-status");
-let intervalId;
-// make the function that generates the code // here we use the set interval function to execute the code at regular intervals
 
-        generateBtn.onclick = generateQuote;
-        autoBtn.onclick = startAutoPlay;
-        stopBtn.onclick = stopAutoPlay;
-    async function getQuotes() {
-        const response = await fetch("quotes.json");
-        const data = await response.json();
-        return data;
-    };
+// Global variable for interval Id (optional but improves readability)
+let intervalId = null;
 
-    async function generateQuote() {
+// fetch quotes 
+async function getQuotes() {
+    const response = await fetch("quotes.json");
+    const data = await response.json();
+    return data;
+}
+
+// generate a quote with error handling
+async function generateQuote() {
+    try {
         const quotes = await getQuotes();
         const quote = quotes[Math.floor(Math.random() * quotes.length)];
-        quoteDisplayEl.innerText = quote.text;
-        quoteIdEl.innerText= quote.id;
-    };
-
-    function startAutoPlay() {
-        intervalId = setInterval(generateQuote, 7000);
-        autoStatusEl.innerHTML = "Auto : ON";
-    };
-
-
-    function stopAutoPlay() {
-        clearInterval(intervalId);
-        autoStatusEl.innerHTML = "Stopped";
+        quoteIdEl.innerHTML = quote.id;
+        quoteDisplayEl.innerHTML = quote.text;
     }
+    catch (error) {
+        console.error("Error fetching quotes:", error);
+        quoteIdEl.innerHTML = "Error fetching quotes";
+        quoteDisplayEl.innerHTML = "Please try again later.";
+    } // handle the error and display an error message to the user
+};
+
+// start automatic quote generation with clear interval id handling
+function startAutoGenerate() {
+    if (!intervalId) { // check if intervalId is already running 
+        intervalId = setInterval(generateQuote, 5000);
+        autoStatusEl.innerHTML = "Auto : ON";
+    }else {
+        console.warn("Auto generate already running. Ignore start request.");
+    }
+};
+
+// stop automatic quote generation with ensured interval clearing
+function stopAutoGenerate() {
+    if (intervalId) {
+        clearInterval(intervalId);
+        intervalId = null;
+        autoStatusEl.innerHTML = "Auto : OFF";
+    }else {
+        console.warn("Auto play is already not running. Ignore Stop request. ")
+    }
+};
+
+
+generateBtn.onclick = generateQuote;
+autoBtn.onclick = startAutoGenerate;
+stopBtn.onclick = stopAutoGenerate;
