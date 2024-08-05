@@ -8,9 +8,9 @@ let autoStatusEl = document.querySelector(".auto-status");
 let intervalId;
 // make the function that generates the code // here we use the set interval function to execute the code at regular intervals
 
-        generateBtn.addEventListener("click", generateQuote);
-        autoBtn.addEventListener("click", startAutoPlay);
-        stopBtn.addEventListener("click", stopAutoPlay);
+        generateBtn.onclick = generateQuote;
+        autoBtn.onclick = startAutoPlay;
+        stopBtn.onclick = stopAutoPlay;
     async function getQuotes() {
         const response = await fetch("quotes.json");
         const data = await response.json();
@@ -25,12 +25,12 @@ let intervalId;
     };
 
     function startAutoPlay() {
-        intervalId = setInterval(generateQuote, 5000);
+        intervalId = setInterval(generateQuote, 7000);
         autoStatusEl.innerHTML = "Auto : ON";
     };
 
 
     function stopAutoPlay() {
         clearInterval(intervalId);
-        autoStatusEl.innerHTML = " ";
+        autoStatusEl.innerHTML = "Stopped";
     }
