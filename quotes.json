@@ -1,0 +1,268 @@
+[
+    {
+        "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+        "id": "1",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "The way to get started is to quit talking and begin doing.",
+        "id": "2",
+        "author": "Walt Disney"
+    },
+    {
+        "text": "Your time is limited, so don't waste it living someone else's life.",
+        "id": "3",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        "id": "4",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Don't watch the clock; do what it does. Keep going.",
+        "id": "5",
+        "author": "Sam Levenson"
+    },
+    {
+        "text": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+        "id": "6",
+        "author": "Walt Whitman"
+    },
+    {
+        "text": "The only way to do great work is to love what you do.",
+        "id": "7",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+        "id": "8",
+        "author": "Chinese Proverb"
+    },
+    {
+        "text": "It always seems impossible until it’s done.",
+        "id": "9",
+        "author": "Nelson Mandela"
+    },
+    {
+        "text": "Believe you can and you're halfway there.",
+        "id": "10",
+        "author": "Theodore Roosevelt"
+    },
+    {
+        "text": "You miss 100% of the shots you don't take.",
+        "id": "11",
+        "author": "Wayne Gretzky"
+    },
+    {
+        "text": "The only limit to our realization of tomorrow is our doubts of today.",
+        "id": "12",
+        "author": "Franklin D. Roosevelt"
+    },
+    {
+        "text": "I have not failed. I've just found 10,000 ways that won't work.",
+        "id": "13",
+        "author": "Thomas A. Edison"
+    },
+    {
+        "text": "Don't be afraid to give up the good to go for the great.",
+        "id": "14",
+        "author": "John D. Rockefeller"
+    },
+    {
+        "text": "I can’t change the direction of the wind, but I can adjust my sails to always reach my destination.",
+        "id": "15",
+        "author": "Jimmy Dean"
+    },
+    {
+        "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
+        "id": "16",
+        "author": "C.S. Lewis"
+    },
+    {
+        "text": "Don't let yesterday take up too much of today.",
+        "id": "17",
+        "author": "Will Rogers"
+    },
+    {
+        "text": "It's not whether you get knocked down, it's whether you get up.",
+        "id": "18",
+        "author": "Vince Lombardi"
+    },
+    {
+        "text": "If you're going through hell, keep going.",
+        "id": "19",
+        "author": "Winston Churchill"
+    },
+    {
+        "text": "Your limitation—it's only your imagination.",
+        "id": "20",
+        "author": "Anonymous"
+    },
+    {
+        "text": "Dream big and dare to fail.",
+        "id": "21",
+        "author": "Norman Vaughan"
+    },
+    {
+        "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+        "id": "22",
+        "author": "Ralph Waldo Emerson"
+    },
+    {
+        "text": "I find that the harder I work, the more luck I seem to have.",
+        "id": "23",
+        "author": "Thomas Jefferson"
+    },
+    {
+        "text": "The purpose of our lives is to be happy.",
+        "id": "24",
+        "author": "Dalai Lama"
+    },
+    {
+        "text": "Life is what happens when you're busy making other plans.",
+        "id": "25",
+        "author": "John Lennon"
+    },
+    {
+        "text": "You only live once, but if you do it right, once is enough.",
+        "id": "26",
+        "author": "Mae West"
+    },
+    {
+        "text": "Many of life’s failures are people who did not realize how close they were to success when they gave up.",
+        "id": "27",
+        "author": "Thomas A. Edison"
+    },
+    {
+        "text": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+        "id": "28",
+        "author": "Martin Luther King, Jr."
+    },
+    {
+        "text": "Life is either a daring adventure or nothing at all.",
+        "id": "29",
+        "author": "Helen Keller"
+    },
+    {
+        "text": "You have within you right now, everything you need to deal with whatever the world can throw at you.",
+        "id": "30",
+        "author": "Brian Tracy"
+    },
+    {
+        "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+        "id": "31",
+        "author": "Zig Ziglar"
+    },
+    {
+        "text": "Winning isn’t everything, but wanting to win is.",
+        "id": "32",
+        "author": "Vince Lombardi"
+    },
+    {
+        "text": "You are never too old to set another goal or to dream a new dream.",
+        "id": "33",
+        "author": "C.S. Lewis"
+    },
+    {
+        "text": "To see what is right and not do it is a lack of courage.",
+        "id": "34",
+        "author": "Confucius"
+    },
+    {
+        "text": "If you can dream it, you can do it.",
+        "id": "35",
+        "author": "Walt Disney"
+    },
+    {
+        "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+        "id": "36",
+        "author": "William Butler Yeats"
+    },
+    {
+        "text": "The best way to predict the future is to invent it.",
+        "id": "37",
+        "author": "Alan Kay"
+    },
+    {
+        "text": "I would rather die of passion than of boredom.",
+        "id": "38",
+        "author": "Vincent van Gogh"
+    },
+    {
+        "text": "You can’t use up creativity. The more you use, the more you have.",
+        "id": "39",
+        "author": "Maya Angelou"
+    },
+    {
+        "text": "The harder the conflict, the greater the triumph.",
+        "id": "40",
+        "author": "George Washington"
+    },
+    {
+        "text": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can’t achieve it.",
+        "id": "41",
+        "author": "Jordan Belfort"
+    },
+    {
+        "text": "Your time is limited, so don’t waste it living someone else’s life.",
+        "id": "42",
+        "author": "Steve Jobs"
+    },
+    {
+        "text": "If life were predictable it would cease to be life, and be without flavor.",
+        "id": "43",
+        "author": "Eleanor Roosevelt"
+    },
+    {
+        "text": "If you look at what you have in life, you'll always have more. If you look at what you don’t have in life, you'll never have enough.",
+        "id": "44",
+        "author": "Oprah Winfrey"
+    },
+    {
+        "text": "If you set your goals ridiculously high and it’s a failure, you will fail above everyone else’s success.",
+        "id": "45",
+        "author": "James Cameron"
+    },
+    {
+        "text": "If you can’t explain it simply, you don’t understand it well enough.",
+        "id": "46",
+        "author": "Albert Einstein"
+    },
+    {
+        "text": "We must balance conspicuous consumption with conscious capitalism.",
+        "id": "47",
+        "author": "Kevin Kruse"
+    },
+    {
+        "text": "The best revenge is massive success.",
+        "id": "48",
+        "author": "Frank Sinatra"
+    },
+    {
+        "text": "I attribute my success to this: I never gave or took any excuse.",
+        "id": "49",
+        "author": "Florence Nightingale"
+    },
+    {
+        "text": "The difference between ordinary and extraordinary is that little extra.",
+        "id": "50",
+        "author": "Jimmy Johnson"
+    },
+    {
+        "text": "The question isn’t who is going to let me; it’s who is going to stop me.",
+        "id": "51",
+        "author": "Ayn Rand"
+    },
+    {
+        "text": "Every strike brings me closer to the next home run.",
+        "id": "52",
+        "author": "Babe Ruth"
+    },
+    {
+        "text": "Definiteness of purpose is the starting point of all achievement.",
+        "id": "53",
+        "author": "W. Clement Stone"
+    }  
+
+]
