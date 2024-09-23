@@ -10,6 +10,9 @@ body {
   font-optical-sizing: auto;
   background-color: #eee;
   margin: 0;
+  padding: 0;
+  background:#0d1117;
+  color: #fff;
 }
 
 ul {
@@ -17,22 +20,34 @@ ul {
 }
 
 h1 {
-  background-color: white;
-  margin: 0 0 20px;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
+  text-align: center;
+    font-size: 25px;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
 }
 
 .quotes {
   max-width: 600px;
   max-height: 390px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin: 80px auto 20px;
-  background-color: white;
+  margin: 50px auto 20px;
+  background-color:#161b229f;
+  /* background: linear-gradient(45deg, #002aff4b, #ff000058); */
   text-align: center;
   padding: 25px;
   border-radius: 5px;
   position: relative;
+background: rgba(255, 255, 255, 0.04);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(128, 126, 126, 0.1);
+backdrop-filter: blur(2.2px);
+-webkit-backdrop-filter: blur(2.2px);
+border: 1px solid rgba(255, 255, 255, 0.19);
 }
 /* 
 @media(max-width:600px ) {
@@ -64,11 +79,10 @@ h1 {
   font-size: 22px;
   line-height: -1.8px;
   padding: 20px;
-  /* margin-bottom: 50px; */
   position: relative;
   font-style: italic;
-  /* border-bottom: 1px solid #eee; */
 }
+
 .quote-display::before,
 .quote-display::after {
   position: absolute;
@@ -118,6 +132,7 @@ h1 {
     padding: 10px;
   }
   .other-btns {
+    display: flex;
     text-align: center;
     margin-right: 8px;
     margin-bottom: 3px;
@@ -188,4 +203,47 @@ ul li:hover {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+  border-top: 1px solid #272727;
+}
+
+.footer p {
+  font-size: 17px;
+  letter-spacing: 2px;
+  /* font-style:oblique; */
+}
+
+.footer p .icon {
+  color:rgb(248, 44, 255);
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.footer .social {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+
+
+.twitter {
+  color: #1da1f2;
+}
+
+
+.github {
+  color: rgb(255, 255, 255);
+}
+
+
+.linkedin {
+  color: #5372f0;
 }
