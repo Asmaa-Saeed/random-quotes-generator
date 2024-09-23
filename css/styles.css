@@ -11,7 +11,7 @@ body {
   background-color: #eee;
   margin: 0;
   padding: 0;
-  background:#0d1117;
+  background: #0d1117;
   color: #fff;
 }
 
@@ -23,12 +23,11 @@ h1 {
   text-align: center;
   padding: 15px;
   text-align: center;
-    font-size: 25px;
-    color:transparent;
-    -webkit-text-stroke: 1px #fff;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    
+  font-size: 25px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .quotes {
@@ -36,18 +35,18 @@ h1 {
   max-height: 390px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   margin: 50px auto 20px;
-  background-color:#161b229f;
+  background-color: #161b229f;
   /* background: linear-gradient(45deg, #002aff4b, #ff000058); */
   text-align: center;
   padding: 25px;
   border-radius: 5px;
   position: relative;
-background: rgba(255, 255, 255, 0.04);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(128, 126, 126, 0.1);
-backdrop-filter: blur(2.2px);
--webkit-backdrop-filter: blur(2.2px);
-border: 1px solid rgba(255, 255, 255, 0.19);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(128, 126, 126, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(255, 255, 255, 0.19);
 }
 /* 
 @media(max-width:600px ) {
@@ -71,6 +70,7 @@ border: 1px solid rgba(255, 255, 255, 0.19);
   height: 40px;
   display: flex;
   justify-content: center;
+  border: 1px solid #ccc;
   align-items: center;
   border-radius: 50%;
 }
@@ -139,17 +139,26 @@ border: 1px solid rgba(255, 255, 255, 0.19);
   }
 }
 
+.main-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 button {
-  padding: 18px;
-  background-color: #e91e63;
-  color: white;
   border: none;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: 0.2s;
   font-weight: bold;
   font-size: 16px;
   margin-right: 15px;
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  border: 2px solid #5372f0;
+  color: #5372f0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
 }
 
 button.Loading {
@@ -161,18 +170,11 @@ button:hover {
   cursor: pointer;
 }
 
-.generate {
-  background-color: #4caf50;
-}
 
 .auto {
-  background-color: #2196f3;
   margin: 0 10px;
 }
 
-.stop {
-  background-color: #f44336;
-}
 
 ul {
   display: flex;
@@ -191,7 +193,8 @@ ul li {
   transition: 0.3s;
 }
 
-ul li:hover {
+ul li:hover,
+button:hover {
   cursor: pointer;
   background-color: #5372f0;
   color: white;
@@ -199,12 +202,17 @@ ul li:hover {
 
 .auto-status {
   text-align: center;
-  color: #fa2718;
-  font-weight: bold;
-  margin-top: 0;
+  background-color: #128912;
+  width: fit-content;
+  text-align: center;
+  padding: 6px;
+  margin: auto;
+  margin-top: -13px;
   margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  display: none;
 }
-
 
 .footer {
   display: flex;
@@ -223,7 +231,7 @@ ul li:hover {
 }
 
 .footer p .icon {
-  color:rgb(248, 44, 255);
+  color: rgb(248, 44, 255);
   font-size: 18px;
   margin-left: 5px;
 }
@@ -234,16 +242,13 @@ ul li:hover {
   font-size: 25px;
 }
 
-
 .twitter {
   color: #1da1f2;
 }
 
-
 .github {
   color: rgb(255, 255, 255);
 }
-
 
 .linkedin {
   color: #5372f0;
